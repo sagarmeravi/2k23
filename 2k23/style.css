@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  /* margin: 0; */
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+#player-container {
+  text-align: center;
+}
+
+#play-btn, #song-selector {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+#play-btn{
+  background-color: #b8ffef;
+}
+#song-selector {
+  width: 200px;
+  background-color: #efefef;
+}
+.heading{
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.heading p{
+  font-size: 1.02rem;
+  font-weight: 400;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+footer{
+  display: flex;
+  position: absolute;
+ bottom: 10px;
+}
